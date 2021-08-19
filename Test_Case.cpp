@@ -12,9 +12,21 @@ void c_p_c()
 
 int32_t main(){
    srand(time(NULL));
-   int t = rand() % t_max + 1; 
-   for (int i=1; i<=t; i++)
-        printf("%d\n", (rand() % n_max) +1);
+   int t = rand() % test_max + 1; 
+   for (int i=1; i<=t; i++){
+        int n = (rand() % n_max) +1;
+       int ans=0;
+   for(int i=1;i<=n/2;++i){
+     ans+=(n/i)-1;
+   } 
+   for(int a3=1;a3<=n/2;++a3){
+     for(int k1=2;k1<=n/a3;++k1){
+       ans+=((n/a3-1)/k1);
+     }
+   }
+   cout<<"Input: "<<n<<" Output: "<<ans<<'\n';
+   }
+  
  
   return 0;
 }
