@@ -5,5 +5,5 @@ Since a2 > 0, k1 >= 1 and also as a2 < a1, k2 >= 1 </br>
  So a1 = (k1*k2 + 1)*a3 and a1 <= n, <b> 1 <= a3 <=n/2 </b> </br> 
  Also, clearly a2 <= n, so <b> 1 <= k1 <= n/a3 </b> </br>
  So, a1 = (k1*k2 +1)*a3 <= n </br>
- So, <b>1 <= k2 <= (n/a3 -1)/k1 </b>
+ So, <b>1 <= k2 <= (n/a3 -1)/k1 </b> </br>
  So Final answer will be updated by using the nested for loops.
