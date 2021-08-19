@@ -19,8 +19,8 @@ The problem given by the teacher is as follows : </br>
                 <h4> Input </h4>
                 Each test contains multiple test cases. </br>
                 The first line contains a single integer t (1 ≤ t ≤ 10) — the number of test cases. Each test case consists of one line.
-                <h1> </h1>
                 The first line of each test case contains a single integer n (1 ≤ n ≤ 10<sup>5</sup>).
+                <h1> </h1>
                 <h4> Output </h4>
                 For each test case, print one integer — the number of trios.
                 
