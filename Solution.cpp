@@ -16,9 +16,9 @@ int ans=0;
 for(int i=1;i<=n/2;++i){
   ans+=(n/i)-1;
 } 
-for(int k2=1;k2<=n/2;++k2){
-   for(int k1=2;k1<=n/k2;++k1){
-     ans+=((n/k2-1)/k1);
+for(int a3=1;a3<=n/2;++a3){
+   for(int k1=2;k1<=n/a3;++k1){
+     ans+=((n/a3-1)/k1);
    }
 }
 
